@@ -29,5 +29,7 @@ namespace Perpustakaan.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Perpustakaan.Models.Book> Books { get; set; }
     }
 }
