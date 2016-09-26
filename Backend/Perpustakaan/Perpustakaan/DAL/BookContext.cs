@@ -14,11 +14,8 @@ namespace Perpustakaan.DAL
         public DbSet<Book> Books { get; set; }
         public DbSet<Stock> Stocks { get; set; }
         public DbSet<Member> Members { get; set; }
-<<<<<<< HEAD
+
         public DbSet<AksesAnggota> Akses { get; set;}
-=======
-        public DbSet<AksesAnggota> Akses { get; set; }
         public DbSet<AksesAdmin> AksesAdmins { get; set; }
->>>>>>> b5ef2dbf2c01e9402b19a2073904b785459a2457
     }
 }
